@@ -1,0 +1,28 @@
+# Entorno virtual de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Datos y Modelos (NUNCA subir a Git)
+data/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.rds
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+
+# Artefactos locales de Databricks / MLflow
+mlruns/
+.databricks/
